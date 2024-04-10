@@ -1,0 +1,12 @@
+La CMD (Command Prompt) es una interfaz de línea de comandos en sistemas operativos Windows 
+que permite a los usuarios interactuar con el sistema operativo mediante comandos de texto. 
+
+Sirve para ejecutar comandos y scripts, administrar archivos y directorios, 
+realizar tareas de administración del sistema y 
+automatizar procesos en el sistema operativo Windows. 
+
+Es una herramienta poderosa para usuarios avanzados y administradores de sistemas que 
+prefieren la interacción a través de comandos en lugar de interfaces gráficas.
+
+Para abrir la cmd: Explorador de archivos/carpetas y en la ruta de carpetas escribimos cmd/o en la barra de herramientas
+

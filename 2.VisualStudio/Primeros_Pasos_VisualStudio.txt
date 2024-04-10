@@ -1,0 +1,9 @@
+--Abrir terminal
+Terminal > New Terminal
+
+--Añadir extensiones
+Ctrl+Shift+x -> Code Runner para hacer botón derecho y Run para lanzar solo esas lineas
+
+--Shortcuts
+File > Preferences > Keyboard Shortcuts -> Buscamos workbench.action.terminal.runSelectedText y le damos a (+)
+Ctrl+< -> nuestro shortcuts para lanzar en terminal

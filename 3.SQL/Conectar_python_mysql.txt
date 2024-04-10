@@ -1,0 +1,38 @@
+pip install mysql-connector-python
+Ejemplo básico para conectarte a una base de datos MySQL y ejecutar una consulta SQL:
+
+python
+Copy code
+import mysql.connector
+
+# Establecer la conexión a la base de datos
+conexion = mysql.connector.connect(
+    host="localhost",
+    user="tu_usuario",
+    password="tu_contraseña",
+    database="tu_base_de_datos"
+)
+
+# Crear un cursor para ejecutar consultas
+cursor = conexion.cursor()
+
+# Ejecutar una consulta SQL
+consulta = "SELECT * FROM tu_tabla"
+cursor.execute(consulta)
+
+# Obtener los resultados de la consulta
+resultados = cursor.fetchall()
+
+# Mostrar los resultados
+for fila in resultados:
+    print(fila)
+
+# Cerrar el cursor y la conexión
+cursor.close()
+conexion.close()
+
+Reemplaza "localhost", "tu_usuario", "tu_contraseña", y "tu_base_de_datos" con la información de tu servidor MySQL.
+Reemplaza "tu_tabla" con el nombre de la tabla de la cual deseas obtener los datos.
+cursor.execute() se utiliza para ejecutar la consulta SQL especificada.
+cursor.fetchall() obtiene todos los resultados de la consulta.
+Finalmente, se recorren los resultados obtenidos y se imprimen en la consola.

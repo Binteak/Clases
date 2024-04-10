@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "titulo": "Pulp Fiction",
+    "año": 1994,
+    "autor": "Quentin Tarantino",
+    "genero": "Crimen"
+  },
+  {
+    "id": 2,
+    "titulo": "The Shawshank Redemption",
+    "año": 1994,
+    "autor": "Frank Darabont",
+    "genero": "Drama"
+  },
+  {
+    "id": 3,
+    "titulo": "The Godfather",
+    "año": 1972,
+    "autor": "Francis Ford Coppola",
+    "genero": "Drama"
+  },
+  {
+    "id": 4,
+    "titulo": "The Irishman",
+    "año": 2019,
+    "autor": "Martin Scorsese",
+    "genero": "Crimen"
+  },
+  {
+    "id": 5,
+    "titulo": "Django Unchained",
+    "año": 2012,
+    "autor": "Quentin Tarantino",
+    "genero": "Drama"
+  }
+]

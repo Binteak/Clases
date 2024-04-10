@@ -1,0 +1,62 @@
+Breve introducción a SQL junto con ejemplos de algunas de las consultas más importantes:
+
+Crear una tabla:
+
+sql
+Copy code
+CREATE TABLE Empleados (
+    ID INT PRIMARY KEY,
+    Nombre VARCHAR(50),
+    Edad INT,
+    Salario FLOAT
+);
+Insertar datos en una tabla:
+
+sql
+Copy code
+INSERT INTO Empleados (ID, Nombre, Edad, Salario) 
+VALUES (1, 'Juan', 30, 2500.00);
+Consultar datos de una tabla:
+
+sql
+Copy code
+SELECT * FROM Empleados;
+Actualizar datos en una tabla:
+
+sql
+Copy code
+UPDATE Empleados SET Salario = 3000.00 WHERE ID = 1;
+Eliminar datos de una tabla:
+
+sql
+Copy code
+DELETE FROM Empleados WHERE ID = 1;
+Consultas con condiciones:
+
+sql
+Copy code
+SELECT * FROM Empleados WHERE Edad > 25;
+Ordenar resultados:
+
+sql
+Copy code
+SELECT * FROM Empleados ORDER BY Salario DESC;
+Consultas con funciones de agregación:
+
+sql
+Copy code
+SELECT AVG(Salario) FROM Empleados;
+Consultas con joins (uniones):
+
+sql
+Copy code
+SELECT Empleados.Nombre, Departamentos.Nombre AS Departamento 
+FROM Empleados
+INNER JOIN Departamentos ON Empleados.DepartamentoID = Departamentos.ID;
+Consultas con agrupamiento:
+
+sql
+Copy code
+SELECT DepartamentoID, COUNT(*) AS NumEmpleados 
+FROM Empleados 
+GROUP BY DepartamentoID;

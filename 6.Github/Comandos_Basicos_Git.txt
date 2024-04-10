@@ -1,0 +1,90 @@
+--Ejemplo de Github: Subir un proyecto
+git init -> Inicializamos el proyecto git
+git remote add origin <url_del_repositorio> -> Agregar el origen remoto a tu repositorio local pc
+git add . -> Añadimos todo (.)
+git commit -m "Primer commit" -> Primer commit en el repositorio local
+git push -u origin master -> Master es la branch, si quieres puedes subir los cambios a otra rama del repositorio remoto gitHub
+
+
+--Ejemplo de subir un solo archivo
+git add mi_archivo.txt
+git commit -m "Agregado mi_archivo.txt"
+git push origin master
+git push -u origin master (establece una relación de seguimiento entre la rama local y la rama remota)
+
+--Ejemplo GitHub: Pasar los cambios a la rama 'Desarrollo'
+git checkout desarrollo -> Comprobamos en la rama que estamos, estamos en Desarrollo?
+git checkout -b desarrollo -> Si no estamos en esa rama, podemos cambiar así
+git merge master ->fusiona los cambios que están en la rama 'Master' con la rama 'Desarrollo'
+(Hacemos cambios como en el ejemplo anterior)
+
+--Ejemplo GitHub: Actualizar tu repositorio local
+git pull origin master -> obtener los cambios más recientes del repositorio remoto en tu repositorio local s
+
+
+
+
+
+
+--Ejemplo de Resolución de Conflictos entre ramas:
+Supongamos que tienes dos ramas, feature/nueva-funcionalidad y desarrollo 
+y estás fusionando los cambios de feature/nueva-funcionalidad en desarrollo. 
+
+Si hay un conflicto de fusión, Git te indicará qué archivos tienen conflictos y 
+los marcará en el archivo con conflictos. 
+
+Ejemplo de cómo se vería el archivo con conflictos:
+
+<<<<<<< HEAD (contenido de la rama actual)
+Esta es la última funcionalidad agregada en la rama 'desarrollo'.
+=======
+Esta es la nueva funcionalidad que se agregó en la rama 'feature/nueva-funcionalidad'.
+>>>>>>> feature/nueva-funcionalidad (contenido de la rama fusionada)
+
+Para resolver el conflicto, debes editar manualmente el archivo y d
+ecidir qué cambios quieres conservar 
+
+Puedes eliminar las marcas de conflicto <<<<<<<, ======= y >>>>>>> y decidir qué parte del código quieres mantener. 
+Por ejemplo, podrías decidir mantener ambas partes, eliminar una de ellas o hacer cambios adicionales
+
+Una vez que hayas resuelto todos los conflictos en el archivo, debes guardar los cambios y 
+luego agregar el archivo modificado con git add y 
+hacer un commit para completar el proceso de fusión 
+
+Después de eso, puedes continuar con el proceso de fusión ejecutando 
+git merge --continue (si es necesario)
+
+
+
+
+
+--Comandos más usados
+1.git init: Inicializa un nuevo repositorio Git en un directorio existente o vacío.
+
+2.git clone [url]: Clona un repositorio Git existente desde una URL remota a tu sistema local.
+
+3.git add [archivo(s)]: Agrega archivos al área de preparación para ser incluidos en el próximo commit.
+
+4.git commit -m "[mensaje]": Crea un nuevo commit con los cambios en el área de preparación y un mensaje descriptivo.
+
+5.git status: Muestra el estado actual del directorio de trabajo y del área de preparación.
+
+6.git log: Muestra el historial de commits del repositorio.
+
+7.git pull: Descarga los cambios desde el repositorio remoto y fusiona cualquier cambio en tu rama local.
+
+8.git push: Sube los cambios locales al repositorio remoto.
+
+9.git branch: Muestra una lista de ramas locales y resalta la rama en la que estás actualmente.
+
+10.git checkout [nombre de la rama o commit]: Cambia entre ramas o restablece el directorio de trabajo a un estado específico del historial de commits.
+
+11.git merge [nombre de la rama]: Fusiona los cambios de una rama específica en la rama actual.
+
+12.git remote: Muestra los repositorios remotos configurados.
+
+13.git reset: Deshace cambios en el área de preparación o en el directorio de trabajo.
+
+14.git stash: Guarda temporalmente los cambios en un área de almacenamiento temporal.
+
+15.git tag [nombre del tag]: Crea un tag para marcar un punto específico en el historial de commits.

@@ -1,0 +1,6 @@
+id;titulo;anio;autor;genero;sinopsis
+1;El Padrino;1972;Francis Ford Coppola;Drama;Cuando el padre de la familia es atacado; el hijo menor toma las riendas del negocio familiar de la mafia y comienza una guerra con otras familias de la mafia.
+2;Casablanca;1942;Michael Curtiz;Romance;Durante la Segunda Guerra Mundial; un propietario de un café en Marruecos se ve atrapado entre su ex amante y su esposo; un líder de la resistencia contra los nazis.
+3;2001: Una Odisea en el Espacio;1968;Stanley Kubrick;Ciencia ficción;Un viaje a través del espacio y el tiempo a medida que la humanidad se enfrenta a sus orígenes y su destino.
+4;La Lista de Schindler;1993;Steven Spielberg;Drama;Un empresario alemán salva a más de mil judíos polacos durante el Holocausto al emplearlos en su fábrica de armamento.
+5;El Señor de los Anillos: El Retorno del Rey;2003;Peter Jackson;Fantasía;El último enfrentamiento entre el bien y el mal en la Tierra Media; mientras Frodo y Sam se acercan al Monte del Destino para destruir el Anillo Único.

@@ -1,0 +1,8 @@
+pip install django
+python --version
+--Mirar las rutas del path y añadir: C:\Python312\Scripts
+python -m django startproject backend
+
+--Navegar a la carpeta de Backend y lanzar la terminal del proyecto
+cd backend
+python manage.py runserver

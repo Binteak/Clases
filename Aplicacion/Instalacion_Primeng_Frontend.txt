@@ -1,0 +1,11 @@
+ng new app -> Creamos nuevo proyecto en angular en la carpeta Frontend (cd frontend)
+
+--Instalamos PRIMENG: Dentro de la carpeta 'frontend/my-app' instalamos PRIMENG ejecutando:
+cd app
+ng add primeng
+
+--Ejecutar Aplicación Angular
+ng serve
+
+
+ng generate service backend ->instalar servicio

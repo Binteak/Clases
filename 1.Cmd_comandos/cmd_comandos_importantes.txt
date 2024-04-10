@@ -1,0 +1,44 @@
+--Comandos básicos:
+cd (Change Directory): Cambiar de directorio.
+
+Ejemplo: cd documentos (cambia al directorio "documentos").
+dir (Directory Listing): Listar archivos y carpetas en el directorio actual en Windows.
+
+Ejemplo: dir.
+ls (List): Listar archivos y carpetas en el directorio actual en macOS/Linux.
+
+Ejemplo: ls.
+pwd (Print Working Directory): Mostrar la ruta del directorio actual.
+
+Ejemplo: pwd.
+mkdir (Make Directory): Crear un nuevo directorio.
+
+Ejemplo: mkdir proyecto.
+touch: Crear un nuevo archivo vacío.
+
+Ejemplo: touch archivo.txt.
+rm (Remove): Eliminar archivos o carpetas.
+
+Ejemplo: rm archivo.txt.
+
+
+
+
+--Comandos para mover archivos:
+mv (Move): Mover archivos o carpetas de un lugar a otro.
+
+Ejemplo: mv archivo.txt directorio/.
+cp (Copy): Copiar archivos o carpetas.
+
+Ejemplo: cp archivo.txt directorio/.
+
+
+
+
+--Comandos para trabajar con enlaces simbólicos:
+ln (Link): Crear enlaces simbólicos.
+
+Ejemplo: ln -s archivo.txt enlace.txt.
+rm: Eliminar enlaces simbólicos.
+
+Ejemplo: rm enlace.txt.

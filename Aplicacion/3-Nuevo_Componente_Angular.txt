@@ -1,0 +1,4 @@
+--Dentro de la carpeta frontend, ejecuta el siguiente comando para crear un nuevo componente en tu proyecto Angular:
+ng generate component componenteuno -> los 'ng' debemos ejecutarlos cuando no esté la terminal corriendo del frontend
+
+

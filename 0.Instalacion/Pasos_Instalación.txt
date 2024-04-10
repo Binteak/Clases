@@ -1,0 +1,7 @@
+1. Accedemos a la web e instalamos python
+python --version en cualquier cmd
+
+2. Node js
+3. Visual Studio
+4. Github
+5. Crear una cuenta de Oracle
